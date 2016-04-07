@@ -1,1 +1,3 @@
-"# ExploreResiduals" 
+Let's say you have a few different predictors for the same outcome, and you want to know what subgroups Predictor 1 does well on, and what subgroups Predictor 2 does well on. The problem is that you don't have variables for these subgroups. This R Shiny application takes a data frame with columns, plots one column against the other, draws a best fit line, and then produces an interactive scatterplot. Clicking on the scatterplot pulls up an image representing the plot point nearest to the place you clicked.
+
+This particular application involves several measures for predicting legislative district compactness. 
